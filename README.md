@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-Melodex is a machine learning-based project that classifies songs into different emotional moods — **Energetic, Happy, Calm, and Sad** — using audio features from a Spotify dataset. The system combines data preprocessing, feature engineering, and a Decision Tree classifier, along with a simple interactive interface for demonstration.
+Melodex is a machine learning-based project that classifies songs into different emotional moods  **Energetic, Happy, Calm, and Sad**  using audio features from a Spotify dataset. The system combines data preprocessing, feature engineering, and a Decision Tree classifier, along with a simple interactive interface for demonstration.
 
 ---
 
@@ -68,7 +68,7 @@ These features represent the **audio characteristics** of songs and are most rel
 
 ## 🏷️ Feature Engineering (Mood Label Creation)
 
-Since the dataset did not include mood labels, we created a new target variable **`mood`** using rule-based logic based on audio features.
+Since the dataset did not include mood labels, we created a new target variable **`mood`** using rule based logic based on audio features.
 
 ### Initial Distribution:
 
@@ -160,7 +160,7 @@ A simple interface was built using **Streamlit** to:
 
 ## 🚀 Future Improvements
 
-* Use real labeled datasets instead of rule-based labels
+* Use real labeled datasets instead of rule based labels
 * Integrate Spotify API for real-time song input
 * Use advanced models (Random Forest, Neural Networks)
 * Improve UI/UX design
@@ -175,7 +175,10 @@ Melodex AI demonstrates how machine learning can be used to interpret emotional 
 
 ## 👥 Team
 
-(Add your team member names here)
+Harshwardhan Chhangani
+Arush Jain
+Akshan Paunikar
+Abhas Naite
 
 ---
 
