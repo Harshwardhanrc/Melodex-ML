@@ -1,0 +1,30 @@
+dataset.csv from Kaggle
+imported the csv file and pandas to the program
+multiple columns existed like- Unnamed: 0', 'track_id', 'artists', 'album_name', 'track_name','popularity', 'duration_ms', 'explicit', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness','instrumentalness', 'liveness', 'valence', 'tempo', 'time_signature','track_genre.
+removed unwanted columns (noise).
+like- 'Unnamed: 0',
+    'track_id',
+    'artists',
+    'album_name',
+    'track_name'
+selected columns or parameters on which we will train our model on.
+like-  'energy',
+    'tempo',
+    'valence',
+    'danceability',
+    'acousticness',
+    'loudness',
+    'speechiness',
+    'instrumentalness',
+    'liveness',
+applied basic rules and conditions on the metadata.
+created a label mood and trained the model.
+got the values-
+Happy	80769
+Sad	16983
+Energetic	14548
+Calm	1700
+the dataset is imbalanced happy is too high and calm is too low. so there is a bias and the output will most likely show happy for each song.
+
+so we applied sampling techniques to balance the dataset class distribution and avoid model bias.
+
